@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="view"> View Highscore</div>
+    <div id="timer" class='timer'></div>
+  </header>
+  
+  <div class="question-container">
+    <h1> Coding Chellange Quiz</h1>
+    <p> Try to answer the following code-related question withint the time limited.</p>
+    <button id='btn-start'> Start Quiz </button>
+
+    <div id="question-1" class="hidden" data-answer="Object-Based"> What type of Javascript language is?
+      <ol>
+        <li><button class="answer"> Object-Oriented</button></li>
+        <li><button class="answer"> Object-Based</button></li>
+        <li><button class="answer"> Functional programming</button></li>
+        <li><button class="answer"> All of the above</button></li>
+      </ol>
+
+      <!-- <p class="correct-answer"> Answer: Object-Based</p> -->
+    </div>
+    <!-- Answer = Object base -->
+
+
+    <div id="question-2" class="hidden" data-answer="It is a scripting language used to make the website interactive"> Which of the following statements is true about the Javascript?
+      <ol>
+        <li><button class="answer"> It is a scripting language used to make the website interactive </button></li>
+        <li><button class="answer"> It is an advanced version of Java for Desktop and Mobile application development</button> </li>
+        <li><button class="answer"> It is a markup language of Java to develop the webpages</button> </li>
+        <li><button class="answer"> All of the above</button></li>
+      </ol>
+    </div>
+    <!-- Answer: A) It is a scripting language used to make the website interactive -->
+
+    <div id="question-3" class="hidden" data-answer="Semicolon (;)">Which symbol is used separate JavaScript statements? 
+      <ol>
+        <li><button class="answer"> Comma (,)</button></li>
+        <li><button class="answer"> Colon (:)</button></li>
+        <li><button class="answer"> Hyphen (_)</button></li>
+        <li><button class="answer"> Semicolon (;)</button></li>
+      </ol>
+    </div>
+    <!-- Answer: D) Semicolon (;) -->
+    <div id="question-4" class="hidden" data-answer="All of the above"> JavaScript ignores?
+      <ol>
+        <li><button class="answer"> newlines</button></li>
+        <li><button class="answer"> tabs</button></li>
+        <li><button class="answer"> spaces</button></li>
+        <li><button class="answer"> All of the above</button></li>
+      </ol>
+    </div>
+<!-- all of the above -->
+<div id="result"> </div>
+
+  </div>
+
+  <div class="all-done-container hidden"> 
+    <h1> All Done</h1>
+    <p class=""> Your final score is: <span id="final-score"></span></p>
+    <div>
+      <label for="initial">Enter your initials:</label>
+      <input type="text" id='initial' name="initial" value=""/>
+    </div>
+
+    <button id="submit-btn"> Submit</button>
+    
+  </div> 
+
+  
+  
+<script src="script.js"></script>
+</body>
+</html>
+
+

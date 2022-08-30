@@ -1,0 +1,55 @@
+header {
+  font-size: 35px;
+  display: flex;
+  font-weight: bold;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+body {
+  
+  justify-content: center;
+  position: relative;
+  text-align: center; 
+}
+
+#btn-start {
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+#btn-start:hover {
+  background-color: #004643; 
+}
+
+.hidden {
+  display: none;
+}
+
+.answer  {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+
+}
+
+li {
+  background-color: #abd1c6; 
+  margin-top: 10px;
+  padding: 5px 15px;
+  width: 80%;
+  font-size: 18px;
+  color: black; 
+  list-style-type: none;
+
+}
+#sumbit-btn {
+  background-color: #004643; 
+}
+
+
+
+
